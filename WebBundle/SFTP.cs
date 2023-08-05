@@ -110,7 +110,8 @@ namespace WebBundle
                         fileDict.Add(fileName,sftpFileObject);
                     }
                     sftp.Disconnect();
-                    sftp.Dispose();                }
+                    sftp.Dispose();                
+                }
             }
             catch (Exception ex)
             {
