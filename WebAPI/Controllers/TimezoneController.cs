@@ -35,7 +35,7 @@ namespace WebAPI.Controllers
         /// <summary>
         /// This will take zonename as argument of string type and returns current datetime 
         /// </summary>
-        /// <param name="zonename"></param>
+        /// <param name="zonename">Pass zonename as argument as string. It should be correct match as listed.</param>
         /// <returns>TimezoneModel</returns>
         [Route("GetZonetime/{zonename}")]
         [HttpGet(Name ="GetTimezoneInfo")]
