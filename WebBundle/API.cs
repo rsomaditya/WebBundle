@@ -41,8 +41,6 @@ namespace WebBundle
                 {
                     foreach (var kvp in headers)
                     {
-                        Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
-
                         string hKey = string.Format(kvp.Key);
                         string hValue = string.Format("{0}", kvp.Value);
                         webRequest.Headers.Add(hKey,hValue);

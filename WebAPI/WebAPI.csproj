@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Renci.SshNet">
+      <HintPath>..\WebBundle\bin\Debug\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="WebBundle">
+      <HintPath>..\WebBundle\bin\Debug\WebBundle.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
